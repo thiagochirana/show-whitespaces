@@ -1,4 +1,4 @@
-# nvim-whitespaces
+# show-whitespaces
 
 Plugin simples para visualizar espaços no Neovim.
 
@@ -8,7 +8,7 @@ Plugin simples para visualizar espaços no Neovim.
 
 ```lua
 {
-  "seuuser/nvim-whitespaces",
+  "thiagochirana/show-whitespaces",
   config = function()
     require("whitespaces").setup()
   end,
